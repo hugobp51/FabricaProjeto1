@@ -1,0 +1,121 @@
+:root {
+    --background-color: #F0F2F5;
+    --primary-color: #166FE5;
+    --white: #fff;
+    --grey: #E7E7E7;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+body {
+    background: var(--background-color);
+    --webkit-font-smoothing: antialiased;
+}
+
+body,
+input,
+textarea,
+button {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+}
+
+button {
+    cursor: pointer;
+}
+
+.header{
+    background-color: #404EED;
+}
+
+.header header{
+    display: flex;
+    background-color: #404EED;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.header header .navGroup{
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+}
+
+.header header .navGroup a{
+    color: white;
+} 
+
+.header button{
+    background-color: #ffff;
+    border: 0;
+    color: black;
+    padding: 0.6rem 1rem;
+    border-radius: 1.8rem;    
+    font-size: 0.75rem;
+}
+
+.header button:hover{
+    color: #166FE5;
+}
+.header h1{
+    color: white;
+
+}
+
+.colorPrimary{
+    background-color: #313ba2;
+}
+.primaryView{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
+    min-height: 92vh;    
+    justify-content: center;
+    padding: 0 20rem;
+    text-align: center;
+    
+}
+
+.primaryView h1{
+    font-size: 3rem;
+    font-weight: 1000;
+}
+
+.primaryView .botoes {
+    font-size: 1.8rem;
+    gap: 2rem;
+    
+}
+
+.primaryView{
+    font-size: 1.3rem;
+}
+
+.primaryView .botoes .branco {
+    padding: 0.6rem 1.1rem;
+    border-radius: 2rem;
+    
+}
+.primaryView .botoes .preto {
+    padding: 0.6rem 1.1rem;
+    border-radius: 2rem;
+    color: white;
+    background-color: black;
+    
+    
+}
